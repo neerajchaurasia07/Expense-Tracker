@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1b2f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  background: #2a2a40;
+  padding: 20px;
+  border-radius: 10px;
+}
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  background: #00b894;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #019874;
+}
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #333;
+  margin: 8px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid;
+}
+.income {
+  border-color: #2ecc71;
+}
+.expense {
+  border-color: #e74c3c;
+}
